@@ -2,7 +2,7 @@
 **A Model to Capture and Recognize Bot Activity on Twitter**
 
 ### **Introduction**
-BotWise is a model to analyze
+BotWise is a model to analyze human activity and characteristics on Twitter and compare that to novel data of unknown origin. An account may either be marked as "likely a bot" or "not likely a bot." The model also errs on the side of caution, only flagging an account at 95% certainty or above. 
 
 ### **Prerequisites**
 - Python 3.8 or greater
