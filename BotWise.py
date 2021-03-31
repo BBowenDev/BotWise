@@ -73,8 +73,3 @@ else:
     print(">>> ACCOUNT IS NOT LIKELY A BOT")
 
 print("ACCOUNT ANALYZED IN", str(time.time()-start_time), "SECONDS")
-
-
-
-
-
