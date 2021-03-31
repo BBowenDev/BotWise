@@ -5,13 +5,16 @@ from Classes.normalizer import Normalizer
 from Classes.comparator import Comparator
 from Classes.grabber import Grabber
 import time
+import sys
+
+if __name__ == "__main__":
+    grabber = Grabber(sys.argv[1])
 
 print("**********************************")
 print("BotWise")
 print("**********************************")
 
-#Create driver class object instances
-grabber = Grabber()
+#Create normalizer object
 normalizer = Normalizer()
 
 #Take user input, retrieve from Twitter API
