@@ -1,8 +1,7 @@
 import requests, json, time
 
 class Grabber ():
-    def __init__(self):
-        TW_TOKEN_BEARER = ""
+    def __init__(self, TW_TOKEN_BEARER):
         self.headers = self.create_headers(TW_TOKEN_BEARER)
         self.wait_num = 0 
     
