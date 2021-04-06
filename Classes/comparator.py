@@ -66,7 +66,6 @@ class Comparator ():
         
         if b_val > self.test_max[str(r)]:
             passed = 1
-            print("----- B VALUE FAILURE:", b_val)
         
         if output == True:
             print("B VALUE:", "%.3f" % b_val, "::", "%.3f" % self.test_max[str(r)])
