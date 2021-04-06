@@ -22,7 +22,7 @@ The repository should be ready for use after cloning, as it contains a pre-train
 ```
 python BotWise.py X
 ```
--`X`- your Twitter Bearer Authentication Token. If you do not have a token, you can apply for one [here](https://developer.twitter.com/). 
+- `X`- your Twitter Bearer Authentication Token. If you do not have a token, you can apply for one [here](https://developer.twitter.com/). 
 The script will print input for a Twitter account to be analyzed. If the Auth Token is correct, the script will return relevant data and a verdict on the account's veracity.
 ```
 **********************************
