@@ -14,7 +14,7 @@ print("**********************************")
 print("BotWise")
 print("**********************************")
 
-#Create normalizer object
+#Create driver class object instances
 normalizer = Normalizer()
 
 #Take user input, retrieve from Twitter API
@@ -52,11 +52,11 @@ for pos, data in enumerate(acct_packed):
         acct_packed[pos] = [data]
 
 #prepare to unpack the test max allowance
-maxpack = Packager("test_max", filetype="json")
+maxpack = Packager("base_max", filetype="json")
 
 #unpack the model list [average, standard deviation] and prepare comparator with model and max allowance
-modelpack = Packager("model_base", filetype="json")
-comparator = Comparator(modelpack.unpackage_json(), test_max=maxpack.unpackage_json()[0])
+modelpack = Packager("base_model", filetype="json")
+comparator = Comparator(modelpack.unpackage_json(), test_max=maxpack.unpackage_json())
 
 #set number of acceptable deviations from the norm
 ranges = [1.5, 1.75, 2.0]
