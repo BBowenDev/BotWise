@@ -18,10 +18,11 @@ cd BotWise
 ```
 
 ### **Setup**
-The repository should be ready for use after cloning, as it contains a pre-trained model in `base_model.json` and `base_max.json`. To use the script, run the `BotWise.py` script, where `X` is your Twitter Bearer Authentication Token. If you do not have a token, you can apply for one [here](https://developer.twitter.com/). 
+The repository should be ready for use after cloning, as it contains a pre-trained model in `base_model.json` and `base_max.json`. To use the script, run the `BotWise.py` script.
 ```
 python BotWise.py X
 ```
+-`X`- your Twitter Bearer Authentication Token. If you do not have a token, you can apply for one [here](https://developer.twitter.com/). 
 The script will print input for a Twitter account to be analyzed. If the Auth Token is correct, the script will return relevant data and a verdict on the account's veracity.
 ```
 **********************************
