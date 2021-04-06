@@ -9,7 +9,7 @@ import sys
 if __name__ == "__main__":
     grabber = Grabber(sys.argv[4])
     trainer = Trainer(grabber, train_list="list_train", list_max="list_max", train_num=sys.argv[1], max_num=sys.argv[2], API=True)
-    tester = Tester(grabber, test_list="list_test", test_num=100, API=True)
+    tester = Tester(grabber, test_list="list_test", test_num=sys.argv[3], API=True)
 else:
     grabber = Grabber("")
     trainer = Trainer(grabber, train_list="list_train", list_max="list_max", train_num=700, max_num=100, API=True)
