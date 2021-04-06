@@ -17,11 +17,19 @@ cd BotWise
 ```
 
 ### **Setup**
-To run the script, run the following, where `XXXX` is your Twitter Bearer Authentication Token. If you do not have a token, you can apply for one [here](https://developer.twitter.com/). 
+To run the script, run the following, where `A` is your Twitter Bearer Authentication Token. If you do not have a token, you can apply for one [here](https://developer.twitter.com/). 
 ```
-python BotWise.py XXXX
+python BotWise.py A
 ```
 
 
-### ** Training a New Model**
+### **Training a New Model**
+The repository uses a pre-trained model for decision-making. The `preseter.py` script creates a new model for BotWise to use. To create a new model, run the script in the command line.
+```
+python preseter.py A B C
+```
+- `A` is the number of accounts to build the model from
+- `B` is the number of accounts to build the max 
+- `C` is your Twitter Bearer Authentication Token. If you do not have a token, you can apply for one [here](https://developer.twitter.com/). 
 
+Limited options for model creation are accessible from the command line, but the declaration of `Trainer` and `Tester` objects in the script allow for more customization.
