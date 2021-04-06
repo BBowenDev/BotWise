@@ -4,6 +4,7 @@ from Classes.comparator import Comparator
 from Classes.packager import Packager
 from Classes.grabber import Grabber
 import time
+import sys
 
 if __name__ == "__main__":
     grabber = Grabber(sys.argv[4])
