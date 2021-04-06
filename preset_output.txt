@@ -1,0 +1,96 @@
+marcusivler-- insuf tweets
+kimberlyconlon-- Sorry, you are not authorized to see the user with id: [1395998330].
+urbanadmirer-- Sorry, you are not authorized to see the user with id: [1505897150].
+yoongis2ndwife-- Could not find user with usernames: [yoongis2ndwife].
+michellerosiee-- Sorry, you are not authorized to see the user with id: [17174178].
+GarrettMcDowel1-- Could not find user with usernames: [GarrettMcDowel1].
+museumsamSTL-- Sorry, you are not authorized to see the user with id: [90020202].
+trevinovaleri-- Sorry, you are not authorized to see the user with id: [4092948613].
+David_McMahan-- Sorry, you are not authorized to see the user with id: [38733271].
+austinh182006-- Sorry, you are not authorized to see the user with id: [370428440].
+DawnnnQuinn-- Sorry, you are not authorized to see the user with id: [22858912].
+GutzyLo-- Sorry, you are not authorized to see the user with id: [3048202985].
+beardedchap-- Sorry, you are not authorized to see the user with id: [756502435749847041].
+EldestDamon-- Sorry, you are not authorized to see the user with id: [2781698695].
+winklerpgh-- Sorry, you are not authorized to see the user with id: [280519898].
+RadioactiveNiki-- Sorry, you are not authorized to see the user with id: [601310354].
+DashHayes-- Sorry, you are not authorized to see the user with id: [136049704].
+--> https://api.twitter.com/2/users/by?usernames=susie130&user.fields=created_at,description,id,location,name,pinned_tweet_id,profile_image_url,public_metrics,url,username
+WAITED 960 SEC
+jennace24-- Sorry, you are not authorized to see the user with id: [2385906926].
+debgonzalez06-- Sorry, you are not authorized to see the user with id: [332883786].
+DemDevcnne-- Sorry, you are not authorized to see the user with id: [96233466].
+hallesparrow-- Sorry, you are not authorized to see the user with id: [3279297367].
+agargmd-- Sorry, you are not authorized to see the user with id: [43326045].
+twilighteclipsa-- Sorry, you are not authorized to see the user with id: [968249584991506432].
+DrAPSings-- Sorry, you are not authorized to see the user with id: [238601409].
+TheCarmenJulia-- Sorry, you are not authorized to see the user with id: [426202581].
+c_h_e_l_y_1-- Sorry, you are not authorized to see the user with id: [343780837].
+Persistent_AF-- Sorry, you are not authorized to see the user with id: [781579452933349376].
+wildscriber-- Sorry, you are not authorized to see the user with id: [888461829487374338].
+frowles01-- Sorry, you are not authorized to see the user with id: [3642045561].
+--> https://api.twitter.com/2/users/by?usernames=0_TruthHurts_0&user.fields=created_at,description,id,location,name,pinned_tweet_id,profile_image_url,public_metrics,url,username
+WAITED 1920 SEC
+DianaChantel-- Sorry, you are not authorized to see the user with id: [235021968].
+devilishlydiana-- Sorry, you are not authorized to see the user with id: [2793134181].
+renee_52705-- Sorry, you are not authorized to see the user with id: [828750588946980864].
+FieldTripMom-- Sorry, you are not authorized to see the user with id: [318164528].
+DolanAsthetic-- Sorry, you are not authorized to see the user with id: [746331291839139840].
+sara_bhsu-- Sorry, you are not authorized to see the user with id: [1249824050].
+>> MODEL BASE CREATED IN 2372.2290296554565 SECONDS
+ThePJBentley-- Sorry, you are not authorized to see the user with id: [2544886351].
+MaddiFreundlich-- Sorry, you are not authorized to see the user with id: [1022606894291136512].
+kissyhjapan-- Sorry, you are not authorized to see the user with id: [985605761974853632].
+martial685-- Sorry, you are not authorized to see the user with id: [32625397].
+odalis_ruiz-- Sorry, you are not authorized to see the user with id: [563296671].
+ruinscompany-- Sorry, you are not authorized to see the user with id: [360955217].
+--> https://api.twitter.com/2/users/by?usernames=oh_em_rochelle&user.fields=created_at,description,id,location,name,pinned_tweet_id,profile_image_url,public_metrics,url,username
+oh_em_rochelle-- (503, '{"title":"Service Unavailable","type":"about:blank","status":503,"detail":"Service Unavailable"}')
+M VALUES: {1.5: 0.43356158706082565, 1.75: 0.3321684601490844, 2.0: 0.2578309886183371}
+>> MODEL TRAINED IN 71.7696418762207 SECONDS
+PossumFingers-- Sorry, you are not authorized to see the user with id: [1033721698200084480].
+lamont_blount-- Sorry, you are not authorized to see the user with id: [812899824727183360].
+maraascott-- Sorry, you are not authorized to see the user with id: [30766264].
+brialanayy-- Sorry, you are not authorized to see the user with id: [31180753].
+NWDeleon0-- Sorry, you are not authorized to see the user with id: [2508597751].
+--> https://api.twitter.com/2/users/by?usernames=Carrieglinberg&user.fields=created_at,description,id,location,name,pinned_tweet_id,profile_image_url,public_metrics,url,username
+WAITED 2880 SEC
+vicky_thehuman-- Sorry, you are not authorized to see the user with id: [2812459584].
+breannaprasad-- Sorry, you are not authorized to see the user with id: [136697257].
+johannagriese-- Sorry, you are not authorized to see the user with id: [334927761].
+----- B VALUE FAILURE: 0.4615147069419356
+----- B VALUE FAILURE: 0.5360931201403835
+----- B VALUE FAILURE: 0.5913150250379012
+----- B VALUE FAILURE: 0.5111464553525694
+----- B VALUE FAILURE: 0.5865962169980289
+----- B VALUE FAILURE: 0.543895743649207
+----- B VALUE FAILURE: 0.4452190119562082
+----- B VALUE FAILURE: 0.46764584161496786
+----- B VALUE FAILURE: 0.4839844989450737
+----- B VALUE FAILURE: 0.5558202243434085
+PASSAGE AT 1.5: 90 / 100
+----- B VALUE FAILURE: 0.3813726912544528
+----- B VALUE FAILURE: 0.4832182585896492
+----- B VALUE FAILURE: 0.538440163487167
+----- B VALUE FAILURE: 0.4019942389885356
+----- B VALUE FAILURE: 0.3392022490098592
+----- B VALUE FAILURE: 0.5078599533899592
+----- B VALUE FAILURE: 0.4109394092183588
+----- B VALUE FAILURE: 0.36621865622483496
+----- B VALUE FAILURE: 0.372636793879746
+----- B VALUE FAILURE: 0.3348883815090586
+----- B VALUE FAILURE: 0.4048316277375509
+----- B VALUE FAILURE: 0.47567820865592575
+PASSAGE AT 1.75: 88 / 100
+----- B VALUE FAILURE: 0.32099207579980915
+----- B VALUE FAILURE: 0.3900639190352281
+----- B VALUE FAILURE: 0.44528582393274596
+----- B VALUE FAILURE: 0.30752349762241593
+----- B VALUE FAILURE: 0.38252386910150465
+----- B VALUE FAILURE: 0.2863440626554541
+----- B VALUE FAILURE: 0.2720989360090307
+----- B VALUE FAILURE: 0.34445101228290725
+----- B VALUE FAILURE: 0.26572503109534495
+----- B VALUE FAILURE: 0.38252386910150465
+PASSAGE AT 2.0: 90 / 100
+>> MODEL TESTED IN 1025.9736349582672 SECONDS
