@@ -44,7 +44,7 @@ python preseter.py A B C
 
 Limited options for model creation are accessible from the command line, but the declaration of `Trainer` and `Tester` objects in the script allow for more customization. 
 
-The model will pull account data from the `list_train.tsv`, `list_max.tsv`, and `list_train.tsv`. Training a new model will result in __ new files: 
+The model will pull account data from the `list_train.tsv`, `list_max.tsv`, and `list_train.tsv`. Training a new model will result in 9 new files: 
 - `base_model.json`- a _critical_ JSON file containing model average and standard deviation
 - `base_max.json`- a _critical_ JSON file containing model max values
 - `data_train.json`- a JSON file containing API training data for re-testing later
