@@ -6,8 +6,12 @@ from Classes.grabber import Grabber
 import time
 import sys
 
-if __name__ == "__main__":
-    grabber = Grabber(sys.argv[4])
+#import Twitter API Token
+tw_token = open("TW_BEARER_TOKEN.txt", "r")
+token = tw_token.readline()
+grabber = Grabber(token)
+
+if __name__ == "__main__":    
     trainer = Trainer(grabber, train_list="list_train", list_max="list_max", train_num=sys.argv[1], max_num=sys.argv[2], API=True)
     tester = Tester(grabber, test_list="list_test", test_num=sys.argv[3], API=True)
 else:
