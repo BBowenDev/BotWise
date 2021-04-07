@@ -18,11 +18,12 @@ cd BotWise
 ```
 
 ### **Setup**
-The repository should be ready for use after cloning, as it contains a pre-trained model in `base_model.json` and `base_max.json`. To use the script, run the `BotWise.py` script.
+The repository should be nearly ready for use after cloning, as it contains a pre-trained model in `base_model.json` and `base_max.json`. The only necessary modification is the addition of a Twitter Bearer Authentication Token in the `TW_BEARER_TOKEN.txt` file. If you do not have a token, you can apply for one [here](https://developer.twitter.com/).
+
+Then, to use the script, run the `BotWise.py` script in Python.
 ```
-python BotWise.py X
-```
-- `X`- your Twitter Bearer Authentication Token. If you do not have a token, you can apply for one [here](https://developer.twitter.com/). 
+python BotWise.py
+``` 
 
 The script will print input for a Twitter account to be analyzed. If the Auth Token is correct, the script will return relevant data and a verdict on the account's veracity.
 ```
@@ -34,13 +35,12 @@ Enter account: @
 
 
 ### **Training a New Model**
-The repository uses a pre-trained model for decision-making. The `preseter.py` script creates a new model for BotWise to use. To create a new model, run the script in the command line.
+The repository uses a pre-trained model for decision-making. The `preseter.py` script creates a new model for BotWise to use. To create a new model, update the `TW_BEARER_TOKEN.txt` file with your Auth Token, then run the preseting script in the command line.
 ```
-python preseter.py A B C
+python preseter.py A B
 ```
 - `A`- the number of accounts to build the training model 
 - `B`- the number of accounts to build the maxing model 
-- `C`- your Twitter Bearer Authentication Token
 
 Limited options for model creation are accessible from the command line, but the declaration of `Trainer` and `Tester` objects in the script allow for more customization. 
 
