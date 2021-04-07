@@ -1,14 +1,14 @@
 from Classes.account import Account
-from Classes.tweet import Tweet
 from Classes.packager import Packager
 from Classes.normalizer import Normalizer
 from Classes.comparator import Comparator
 from Classes.grabber import Grabber
 import time
-import sys
 
-if __name__ == "__main__":
-    grabber = Grabber(sys.argv[1])
+#import Twitter API Token
+tw_token = open("TW_BEARER_TOKEN.txt", "r")
+token = tw_token.readline()
+grabber = Grabber(token)
 
 print("**********************************")
 print("BotWise")
