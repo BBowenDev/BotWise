@@ -72,4 +72,4 @@ if passes > 1:
 else:
     print(">>> ACCOUNT IS NOT LIKELY A BOT")
 
-print("ACCOUNT ANALYZED IN", str(time.time()-start_time), "SECONDS")
+print("ACCOUNT ANALYZED IN", "%.3f" % (time.time()-start_time), "SECONDS")
