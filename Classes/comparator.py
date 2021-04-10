@@ -54,14 +54,6 @@ class Comparator ():
             return z_vals
         
         passed = 0
-        
-        #if any set has a standard deviation above 3, mark it as failing 
-        #this should be removed if it negatively affects real accounts
-        #for val in z_vals:
-            #if val > 3:
-                #passed = 1
-                #print("----- EXTREMITY FAILURE:", val)
-        
         b_val = sum(z_vals) / len(z_vals)
         
         if b_val > self.test_max[str(r)]:
