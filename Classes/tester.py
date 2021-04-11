@@ -82,4 +82,4 @@ class Tester():
             for account in accounts_formatted:
                 comparator.set_range(drange)
                 passes[drange] += comparator.compare(account)
-            print("PASSAGE AT", str(drange)+":", 100-passes[drange], "/", self.test_num) 
+            print("PASSAGE AT", str(drange)+":", self.test_num-passes[drange], "/", self.test_num) 
